@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="portfolio.png">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <!-- Header -->
+  <header class="h-screen flex items-center justify-between bg-gray-800 text-center p-6 relative">
+    <div class="flex flex-col items-start">
+      <h1 class="text-6xl font-bold mb-2 animate-type">My Portfolio</h1>
+      <p class="text-2xl animate-type-delay">Cybersecurity & Data Enthusiast</p>
+    </div>
+    <nav class="absolute top-1/2 right-6 transform -translate-y-1/2" style="left: 40%;">
+      <ul class="flex flex-col space-y-4 text-xl">
+        <li><a href="#about" class="animate-bullet">Bio</a></li>
+        <li><a href="#education" class="animate-bullet">Education</a></li>
+        <li><a href="#certifications" class="animate-bullet">Certifications</a></li>
+        <li><a href="#skills" class="animate-bullet">Skills</a></li>
+        <li><a href="#projects" class="animate-bullet">Projects</a></li>
+        <li><a href="#contact" class="animate-bullet">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <!-- Main Content -->
+  <main class="container mx-auto px-4 py-10 space-y-20">
+    <!-- About Section -->
+    <section id="about" class="mb-10 animate-slide-up">
+      <h2 class="text-4xl font-bold mb-6">Bio</h2>
+      <p class="text-lg leading-relaxed">Hello'll!, Am Neha, a Web Developer with a keen skills on frontend tools like HTML, CSS, JavaScript, Tailwindcss, TypeScript, React.js and Node.js. I am passionate about learning new technologies and applying them to solve real-world problems. Also am a great Cricket Lover...</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="mb-10 animate-slide-up">
+      <h2 class="text-4xl font-bold mb-6">Education</h2>
+      <ul class="space-y-4">
+        <li>
+          <h3 class="text-2xl font-semibold">Bachelor of Technology in Computer Science and Engineering</h3>
+          <p class="text-lg">Siddhartha Institute of Engineering and Technology, JNTU Hyderabad</p>
+          <p>2018 - 2023</p>
+        </li>
+        <li>
+          <h3 class="text-2xl font-semibold">Physics Chemistry and Mathematics [PCM]</h3>
+          <p class="text-lg">Pre University Course, Hyderabad</p>
+          <p>2016 - 2018</p>
+        </li>
+        <li>
+          <h3 class="text-2xl font-semibold">High School</h3>
+          <p class="text-lg">Shanthi Nikethan High School, Hyderabad</p>
+          <p>2016</p>
+        </li>
+        <!-- Add more education details as needed -->
+      </ul>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="mb-10 animate-slide-up">
+      <h2 class="text-4xl font-bold mb-6">Certifications</h2>
+      <ul class="space-y-4">
+        <li>
+          <h3 class="text-2xl font-semibold">Certified Front End Development - HTML</h3>
+          <p class="text-lg">Great Learning, 2024</p>
+        </li>
+        <li>
+          <h3 class="text-2xl font-semibold">Certified Front End Development - CSS</h3>
+          <p class="text-lg">Great Learning, 2024</p>
+        </li>
+        <li>
+          <h3 class="text-2xl font-semibold">Introduction to JavaScript</h3>
+          <p class="text-lg">Great Learning, 2024</p>
+        </li>
+        <li>
+          <h3 class="text-2xl font-semibold">The Bits and Bytes of Computer Networks</h3>
+          <p class="text-lg">Coursera (Provided by Google), 2024</p>
+        </li>
+        <li>
+          <h3 class="text-2xl font-semibold">Introduction to Front End Development</h3>
+          <p class="text-lg">Simplilearn, 2024</p>
+        </li>
+        <li>
+          <h3 class="text-2xl font-semibold">Introduction to Python</h3>
+          <p class="text-lg">Coddy, 2024</p>
+        </li>
+        <li>
+          <h3 class="text-2xl font-semibold">Canva For Beginners</h3>
+          <p class="text-lg">Simplilearn, 2024</p>
+        </li>
+        <!-- Add more certification details as needed -->
+      </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="mb-10 animate-slide-up">
+      <h2 class="text-4xl font-bold mb-6">Skills</h2>
+      <ul class="grid grid-cols-2 gap-4">
+        <li class="text-lg">Machine Learning</li>
+        <li class="text-lg">Web Development</li>
+        <li class="text-lg">Python</li>
+        <li class="text-lg">JavaScript</li>
+        <li class="text-lg">Data Analysis</li>
+        <li class="text-lg">Docker</li>
+        <li class="text-lg">Github</li>
+        <li class="text-lg">TypeScript</li>
+        <li class="text-lg">Tailwindcss</li>
+        <li class="text-lg">React</li>
+        <li class="text-lg">Linux</li>
+        <li class="text-lg">Shell Scripting</li>
+        <!-- Add more skills as needed -->
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="mb-10 animate-slide-up">
+      <h2 class="text-4xl font-bold mb-6">Projects</h2>
+      <ul class="space-y-4">
+        <li>
+          <h3 class="text-2xl font-semibold">Cricket Score Prediction Model</h3>
+          <p class="text-lg">Developed a model to predict cricket scores based on ball behavior using machine learning techniques.</p>
+        </li>
+        <li>
+          <h3 class="text-2xl font-semibold">Docklight App Replica</h3>
+          <p class="text-lg">Developed a GUI replicating Docklight, a tool for testing, analysis, and simulation of serial communication protocols, using Python and Tkinter. The application enables sending and receiving data, monitoring communication channels, and analysing protocol behaviour</p>
+        </li>
+        <li>
+          <h3 class="text-2xl font-semibold">Interactive Web Page with Magic Slider Animation</h3>
+          <p class="text-lg">Created an interactive web page featuring a magic slider animation using HTML, CSS, and JavaScript. This project showcases dynamic content display and smooth transition effects, enhancing user engagement through visually appealing animations</p>
+        </li>
+        <!-- Add more project details as needed -->
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="mb-10 animate-slide-up">
+      <h2 class="text-4xl font-bold mb-6">Contact</h2>
+      <div class="flex space-x-4">
+        <a href="https://www.linkedin.com/in/nehapaka" class="hover:text-blue-500">
+          <i class="fab fa-linkedin text-3xl">LinkedIn</i>
+        </a>
+        <a href="https://github.com/nehapaka13" class="hover:text-gray-500">
+          <i class="fab fa-github text-3xl">Github</i>
+        </a>
+        <!-- Add more social media links as needed -->
+      </div>
+    </section>
+  </main>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
